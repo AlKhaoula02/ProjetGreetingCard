@@ -387,7 +387,7 @@ height: 760px;
 
 }
 .show{
-  left:1150px;top:250px;
+  left:75%;top:250px;
   z-index:10;
   position: absolute;
 }
@@ -411,7 +411,7 @@ height: 760px;
 .send
 { width: 550px;
   height: 450px;
-  left:1150px;top:370px;
+  left:75%;top:370px;
   position: absolute;
   font-size: 1.2rem;
   font-family: 'Laila', serif;

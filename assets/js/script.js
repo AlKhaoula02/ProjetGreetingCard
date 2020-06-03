@@ -1,4 +1,6 @@
-$('.first').animate({
+
+  $(document).ready(function(){
+    $('.first').animate({
     top: '+=260',
     opacity: 0
   }, 3000)
@@ -8,7 +10,6 @@ $('.second').animate({
     top: '+=150',
     opacity: 1
   }, 3000)
-  $(document).ready(function(){
     $(".show").click(function(){
       $(".send").toggle(1000);
     });
